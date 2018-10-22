@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "mobx/package.json",
+        "next/package.json",
+        "react-native/package.json"
+      ]
+    }
+  }
+}
