@@ -2,7 +2,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export",
+    "deploy": "next build && next export && now out"
   },
   "dependencies": {
     "next": "^7.0.2",

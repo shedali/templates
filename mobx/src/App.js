@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./App.css";
-import { Provider, inject, Observer, observer } from "mobx-react";
+import { Provider, inject, Observer } from "mobx-react";
 import { types as t } from "mobx-state-tree";
 
 const Users = t
@@ -25,7 +25,7 @@ class App extends Component<any> {
   render() {
     return (
       <Provider user={user}>
-        <Observer>{() => <div>{user.time}</div>}</Observer>
+        <Observer>{() => <Main />}</Observer>
       </Provider>
     );
   }

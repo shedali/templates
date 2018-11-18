@@ -1,1 +1,1 @@
-export default () => <div style={{color: "red"}}>Welcome to next.js!</div>
+export default () => <div style={{ color: "red" }}>This is a test</div>;
