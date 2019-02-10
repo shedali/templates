@@ -1,1 +1,1 @@
-import Toggles from './Toggles';
+import COMPONENT from './COMPONENT';
